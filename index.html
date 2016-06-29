@@ -2,55 +2,58 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="site.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"> </script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+      <title> Green Knight&apos; Test page </title>
   </head>
 
-  <div>
-    <div class="">
-      <div class="">
-      </div>
-      <div class="modal-body container">
-        <div class="row">
-          <div class="col-xs-6 col-md-6 vertical-center">
-            <div class="well vertical-center">
-              <form id="forum" method="POST" >
-                <div class="form-group">
-                  <label for="Type of Event" class="control-label">Type of Event<br></label>
-                  <input type="text" class="form-control">
-                </div>
+  <body>
+    <div class="modal-body container">
+      <div class="col-md-4 col-md-offset-4 col-xs-12">
+        <div class="panel panel-default" >
+          <div class="panel-heading">
+            <form>
+              <div class="form-group">
+                <label for="t_event">Type of Event</label>
+                <input type="text" class="form-control" id="t_event">
+              </div>
+              <div class="form-group">
+                <label for="num_teen_vlun"># young volunteers</label>
+                <input type="number" class="form-control" id="num_teen_vlun"> 
+              </div>
 
-                <div class="form-group">
-                  <label for="# young volunteers" class="control-label"># young volunteers<br></label>
-                  <input type="number" class="form-control">
-                </div>
+              <div class="form-group">
+                <label for="num_adult_vlun"># adult volunteers<br></label>
+                <input type="number" class="form-control" id="num_adult_vlun">
+              </div>
+              <div class="form-group">
+                <label for="tot_vlun">Total # volunteers</label>
+                <input type="number" class="form-control" id="tot_vlun"> 
+              </div>
+              <div class="form-group">
+                <label for="vlun_time">Volunteer Hours</label>
+                <input type="number" class="form-control" id="vlun_time">
+              </div>
+              <div class="form-group">
+                <label for="tag">Tag</label>
+                <input type="Text" class="form-control" id="tag">
+              </div>
 
-                <div class="form-group">
-                  <label for="# adult volunteers" class="control-label"># adult volunteers<br></label>
-                  <input type="number" class="form-control">
-                </div>
-                <div class="form-group">
-                  <label for="Total # volunteer" class="control-label">Total # volunteers</label>
-                  <input type="number" class="form-control">
-                </div>
-
-                <div class="form-group">
-                  <label for="Volunteer Hours" class="control-label">Volunteer Hours</label>
-                  <input type="number" class="form-control">
-                </div>
-
-                <div class="form-group">
-                  <label for="Tag" class="control-label">Tag</label>
-                  <input type="Text" class="form-control">
-                </div>
-
-                <button type="submit" class="btn btn-success btn-block">Submit</button>
-            </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </body>
+</html>
