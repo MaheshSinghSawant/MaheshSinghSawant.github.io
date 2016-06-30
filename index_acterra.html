@@ -27,8 +27,8 @@
 
   <div class="smart-wrap">
     <div class="smart-forms smart-container wrap-2">
-      <div class="form-header header-primary"><h4><i class="fa fa-pencil-square"></i>Volunteer Form</h4></div><!-- end .form-header section -->
-      <form method="post" id="new_post" name="new_post"  action="" class="wpcf7-form" enctype="mu ltipart/form-data">
+      <div class="form-header header-primary"><h4><i class="fa fa-pencil-square"></i>Volunteer</h4></div><!-- end .form-header section -->
+      <form method="post" id="new_post" name="new_post"  action="" class="wpcf7-form" enctype="multipart/form-data">
         <div class="form-body">
           <div class="spacer-b30">
             <div class="tagline"><span>Please Fill all Fields</span></div><!-- .tagline -->
@@ -72,7 +72,7 @@
           <div class="section">
             <label class="field select">
               <select id="location" name="location">
-                <option value="">Select location</option>
+                <option value="">Select Location</option>
                 <option value="AS">Arastradero</option>
                 <option value="FH">Foothills</option>
                 <option value="BT">Bay Trail</option>
@@ -96,7 +96,7 @@
 
           <div class="section">
             <label for="file1" class="field file">
-              <span class="button btn-primary"> Upload Image </span>
+              <span class="button btn-primary btn-sm"> Upload Image </span>
               <input type="file" class="gui-file" name="upload1" id="file1" onChange="document.getElementById('uploader1').value = this.value;">
               <input type="text" class="gui-input" id="uploader1" placeholder="" readonly>
             </label>
@@ -117,7 +117,7 @@
           <!--</div>&lt;!&ndash; end  section &ndash;&gt;-->
 
           <div class="spacer-t40 spacer-b40">
-            <div class="tagline"><span> Enter Number of Volunteers </span></div><!-- .tagline -->
+            <div class="tagline"><span>Number of Volunteers</span></div><!-- .tagline -->
           </div>
 
           <div class="frm-row">
@@ -138,14 +138,14 @@
               <textarea class="gui-textarea" id="comment" name="comment" placeholder="Your comment"></textarea>
               <label for="comment" class="field-icon"><i class="fa fa-comments"></i></label>
                             <span class="input-hint">
-                            	<strong>HINT:</strong> Add any details you feel were left out...
+                            	<strong>HINT:</strong> Add any other details ...
                             </span>
             </label>
           </div><!-- end section -->
 
         </div><!-- end .form-body section -->
         <div class="form-footer">
-          <button type="submit" class="button btn-primary"> Validate Form </button>
+          <button type="submit" class="button btn-primary"> Validate </button>
           <button type="reset" class="button"> Cancel </button>
         </div><!-- end .form-footer section -->
       </form>
