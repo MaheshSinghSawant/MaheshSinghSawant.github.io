@@ -17,17 +17,18 @@
 
 body {
   font-family: montserrat, arial, verdana;
-
+  height: 100%;
   background:
   radial-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
 
 }
+
 /*form styles*/
 #msform {
   width: 350px;
   margin-left: 0px;
   text-align: center;
-  position: center;
+  position: relative;
 }
 #msform fieldset {
   background: white;
@@ -135,6 +136,8 @@ body {
   background: #27AE60;
   color: white;
 }
+
+
 
 
 

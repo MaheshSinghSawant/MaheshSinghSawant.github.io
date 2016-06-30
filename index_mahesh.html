@@ -26,52 +26,42 @@
   <body>
 
   <div class="modal-body container">
-      <div class="col-md-4 col-md-offset-4 col-xs-10 col-xs-offset-0">
+          <div class="col-md-4 col-md-offset-4 col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0">
 
-    <!-- multistep form -->
-    <form id="msform">
-        <!-- progressbar -->
-        <ul id="progressbar">
-            <li class="active">Login</li>
-            <li>Enter Data</li>
-            <li>Done</li>
-        </ul>
-        <!-- fieldsets -->
-        <fieldset>
-            <h2 class="fs-title">Login</h2>
-            <h3 class="fs-subtitle">For Volunteer Staff</h3>
-            <input type="text" name="email" placeholder="Username" />
-            <input type="password" name="pass" placeholder="Password" />
-            <!--<input type="password" name="cpass" placeholder="Confirm Password" />-->
-            <input type="button" name="next" class="next action-button" value="Login" />
-        </fieldset>
-        <fieldset>
-            <h2 class="fs-title">Please Enter the Information</h2>
-            <!--<h3 class="fs-subtitle">Your presence on the social network</h3>-->
-            <input type="text" name="twitter" placeholder="Number of youth Volunteers" />
-            <input type="text" name="facebook" placeholder="Number of Adult Volunteers" />
-            <input type="text" name="gplus" placeholder="Comments" />
-            <!--<input type="button" name="previous" class="previous action-button" value="Previous" />-->
-            <input type="button" name="next" class="next action-button" value="Next" />
-        </fieldset>
-        <fieldset>
-            <h2 class="fs-title">Information Sent!</h2>
-            <!--<h3 class="fs-subtitle">We will never sell it</h3>-->
-            <!--<input type="text" name="fname" placeholder="First Name" />-->
-            <!--<input type="text" name="lname" placeholder="Last Name" />-->
-            <!--<input type="text" name="phone" placeholder="Phone" />-->
-            <!--<textarea name="address" placeholder="Address"></textarea>-->
-            <!--<input type="button" name="previous" class="previous action-button" value="Previous" />-->
-            <!--<input type="submit" name="submit" class="submit action-button" value="Submit" />-->
-        </fieldset>
-    </form>
+            <!-- multistep form -->
+            <form id="msform">
+                <!-- progressbar -->
+                <ul id="progressbar">
+                    <li class="active">Login</li>
+                    <li>Enter Data</li>
+                    <li>Done</li>
+                </ul>
+                <!-- fieldsets -->
+                <fieldset>
+                    <h2 class="fs-title">Login</h2>
+                    <h3 class="fs-subtitle">For Volunteer Staff</h3>
+                    <input type="text" name="email" placeholder="Username" />
+                    <input type="password" name="pass" placeholder="Password" />
+                    <input type="button" name="next" class="next action-button" value="Login" />
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">Please Enter the Information</h2>
+                    <h3 class="fs-subtitle"> </h3>
+                    <input type="text" name="youth" placeholder="Number of youth Volunteers" />
+                    <input type="text" name="adult" placeholder="Number of Adult Volunteers" />
+                    <input type="text" name="comments" placeholder="Comments" />
+                    <input type="button" name="next" class="next action-button" value="Next" />
+                </fieldset>
+                <fieldset>
+                    <h2 class="fs-title">Information Sent!</h2>
+                </fieldset>
+            </form>
 
           </div>
       </div>
 
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
-
     <script src="js/index.js"></script>
   </body>
 </html>
