@@ -24,10 +24,10 @@ body {
 }
 /*form styles*/
 #msform {
-  width: 400px;
+  width: 350px;
   margin-left: 0px;
   text-align: center;
-  position: relative;
+  position: center;
 }
 #msform fieldset {
   background: white;
