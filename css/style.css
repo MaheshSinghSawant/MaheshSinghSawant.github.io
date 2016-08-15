@@ -62,11 +62,11 @@ input, textarea {
     background: #1aba9a;
     font-weight: bold;
     color: white;
-    border: 0 none;
-    border-radius: 1px;
-    cursor: pointer;
-    padding: 10px 5px;
-    margin: 10px 5px;
+    /*border: 0 none;*/
+    /*border-radius: 1px;*/
+    /*cursor: pointer;*/
+    /*padding: 10px 5px;*/
+    /*margin: 10px 5px;*/
 }
 /*.action-button:hover, #msform .action-button:focus {*/
     /*box-shadow: 0 0 0 2px white, 0 0 0 3px #1aba9a;*/
